@@ -92,11 +92,11 @@ This creates a **temporal coincidence detection window**.
 
 ## Repository Structure
 
-- **temporal-coincidence-detector/**
+- **temporal-coincidence-detector**
   - Phase1_Presentation.pdf
   - Phase2_Presentation.pdf
-  - ltspice_circuits/
-  - simulation_results/
+  - ltspice_circuits
+  - simulation_results
   - README.md
 
 
