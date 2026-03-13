@@ -90,27 +90,6 @@ This creates a **temporal coincidence detection window**.
 
 ---
 
-## Repository Structure
-
-- **temporal-coincidence-detector**
-  - Phase1_Presentation.pdf
-  - Phase2_Presentation.pdf
-  - ltspice_circuits
-  - simulation_results
-  - README.md
-
-
----
-
-## Applications
-
-- Neuromorphic engineering  
-- Brain-inspired computing  
-- Sound localization models  
-- Signal timing detection circuits  
-
----
-
 ## References
 
 - Jeffress, L. A. (1948). *A Place Theory of Sound Localization*.  
