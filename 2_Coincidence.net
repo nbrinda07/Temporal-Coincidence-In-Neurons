@@ -1,0 +1,17 @@
+* C:\Users\srudr\AppData\Local\Programs\ADI\LTspice\NEURO TC\2_Coincidence.asc
+C1 x 0 10n
+R1 x N002 500
+V1 N002 0 PULSE(0 100 1u 0 0 2u 40u 2) AC 1
+V2 N003 0 PULSE(0 100 10u 0 0 2u 40u 1) AC 1
+R2 x N003 500
+V3 N001 0 15 Rser=1
+V4 P001 0 20
+XU1 x N001 P001 P002 op level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+B1 op 0 V=if(V(x) >15, 010, 0)
+V5 P002 0 -20
+R3 x 0 100k
+.tran 30u
+* Output
+.lib UniversalOpAmp2.lib
+.backanno
+.end
